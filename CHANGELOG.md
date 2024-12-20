@@ -1,6 +1,6 @@
 # Changelog
 
-## 16.12.2024 
+## 20.12.2024 
 - FIX: fixed a bug that incorrectly indicated that an item was unavailable when it was actually available. (https://github.com/tiloman/simren-issues/issues/102)
 
 ## 14.12.2024
