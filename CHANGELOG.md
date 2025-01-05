@@ -1,7 +1,12 @@
 # Changelog
 
+## 5.01.2025
+- FIX: After handing out booking items, the start date of the booking was updated to the current time. This led to invalid bookings when handing out during closing hours. The start date is now updated to the next available time.  
+- FEATURE: After adding a resource for a running booking, it is now possible to hand out items even when the booking running. (https://github.com/tiloman/simren-issues/issues/90). Missing items are now displayed in the booking view.
+
 ## 4.01.2025
 - FIX: Fixed a bug where the dashboard table has reset the start day after toggling the compact view or the names view.
+- FIX: Fixed a bug where the main resource was not updated after changing the resources of a booking. (https://github.com/tiloman/simren-issues/issues/61 )
 - FEATURE: Added the ability to duplicate bookings (https://github.com/tiloman/simren-issues/issues/146)
 
 ## 1.01.2025
