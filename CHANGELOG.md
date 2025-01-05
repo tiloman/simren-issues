@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.01.2025
+- FIX: Fixed a bug where the dashboard table has reset the start day after toggling the compact view or the names view.
+- FEATURE: Added the ability to duplicate bookings (https://github.com/tiloman/simren-issues/issues/146)
+
 ## 1.01.2025
 - FIX: Fixes a bug where some sections were not toggleable (resource view, booking view, etc.)
 - FIX: Fixed a bug where the resource was not available for a booking in edit mode.
