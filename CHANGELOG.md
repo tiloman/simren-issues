@@ -1,5 +1,9 @@
 # Changelog
 
+## 20.01.2025
+- FIX: Notifications were not deletable https://github.com/tiloman/simren-issues/issues/160
+- FIX: Translation for 'category' was missing and sort categories in resource filter by name https://github.com/tiloman/simren-issues/issues/158.
+
 ## 6.1.2025
 - FIX: for invalid bookings it was not posible to make an extension request
 
