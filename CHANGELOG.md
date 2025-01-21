@@ -1,5 +1,8 @@
 # Changelog
 
+## 21.01.2025
+- FEATURE: Add Changelog view
+
 ## 20.01.2025
 - FIX: Notifications were not deletable https://github.com/tiloman/simren-issues/issues/160
 - FIX: Translation for 'category' was missing and sort categories in resource filter by name https://github.com/tiloman/simren-issues/issues/158.
