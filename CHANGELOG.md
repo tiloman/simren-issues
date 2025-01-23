@@ -1,5 +1,9 @@
 # Changelog
 
+## 23.01.2025
+- FEATURE: Custom Footer. Admins can now add a custom footer. You can find it under 'Administration - Other'. It's possible to add links, a logo, and a title. Admins can preview the footer before activating it.
+- FIX: Bookings where marked as invalid due to insufficient leadtime
+
 ## 21.01.2025
 - FEATURE: Add Changelog view
 
