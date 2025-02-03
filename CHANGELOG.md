@@ -1,5 +1,10 @@
 # Changelog
 
+## v1.1.9
+- **FIX**: Reset to_be_deleted status after successful login
+- **FEATURE**: Add extra Filter for users who will be destroyed. Add info in edit user view.
+- **FEATURE**: Finally perform user deletion after inactivity for a specific time (last login). This time can be set in team settings. Defaults to 5 years. https://github.com/tiloman/simren-issues/issues/120
+
 ## v1.1.8
 - **FEATURE**: Custom Footer. Admins can now add a custom footer. You can find it under 'Administration - Other'. It's possible to add links, a logo, and a title. Admins can preview the footer before activating it.
 - **FIX**: Bookings where marked as invalid due to insufficient leadtime
