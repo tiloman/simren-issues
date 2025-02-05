@@ -1,5 +1,10 @@
 # Changelog
 
+## v1.1.10
+- **FIX**: Sort resources by name (https://github.com/tiloman/simren-issues/issues/165)
+- **MAINTENANCE**: Code refactoring and preparations for upcoming update (Rails 6 -> Rails 7)
+- **FEATURE**: Changed wording for welcome page (https://github.com/tiloman/simren-issues/issues/164)
+
 ## v1.1.9
 - **FIX**: Reset to_be_deleted status after successful login
 - **FEATURE**: Add extra Filter for users who will be destroyed. Add info in edit user view.
