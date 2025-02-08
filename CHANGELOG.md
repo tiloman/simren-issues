@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.1.11
+- **FIX**: reset filter link for resources view (https://github.com/tiloman/simren-issues/issues/166)
+- **FIX**: Team infos were displayed wrong after failed login (https://github.com/tiloman/simren-issues/issues/162)
+
 ## v1.1.10
 - **FIX**: Sort resources by name (https://github.com/tiloman/simren-issues/issues/165)
 - **MAINTENANCE**: Code refactoring and preparations for upcoming update (Rails 6 -> Rails 7)
