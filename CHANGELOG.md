@@ -1,5 +1,11 @@
 # Changelog
 
+## v1.1.12
+- **FIX**: If no user was selected in combination with anonymous bookings, the booking could not be submitted (https://github.com/tiloman/simren-issues/issues/167).
+- **FIX**: Mailpreference form was not submittable
+- **FEATURE**: Preselect enddate after selecting a startdate (https://github.com/tiloman/simren-issues/issues/145)
+- **FEATURE**: Opt out for new group notification mail (https://github.com/tiloman/simren-issues/issues/157). Defaults to false
+
 ## v1.1.11
 - **FIX**: reset filter link for resources view (https://github.com/tiloman/simren-issues/issues/166)
 - **FIX**: Team infos were displayed wrong after failed login (https://github.com/tiloman/simren-issues/issues/162)
