@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.1.13
+- **FEATURE**: increase image resolution for ressources (max width from 1000px to 1400px)
+
 ## v1.1.12
 - **FIX**: If no user was selected in combination with anonymous bookings, the booking could not be submitted (https://github.com/tiloman/simren-issues/issues/167).
 - **FIX**: Mailpreference form was not submittable
