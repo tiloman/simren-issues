@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.1.14
+- **FEATURE**: Complete refactoring of the comment model including the option to create internal comments (https://github.com/tiloman/simren-issues/issues/133).
+- **FIX**: Sort accessories alphabetically in resources form
+
 ## v1.1.13
 - **FEATURE**: increase image resolution for ressources (max width from 1000px to 1400px)
 
