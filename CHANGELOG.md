@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.1.15
+- **FIX**: Fixed an issue where a user could not be destroyed due to associations with the new comment model
+- **FIX**: Ensure the right subdomain in invitation mail and some other small issues for the invitation process
+
 ## v1.1.14
 - **FEATURE**: Complete refactoring of the comment model including the option to create internal comments (https://github.com/tiloman/simren-issues/issues/133).
 - **FIX**: Sort accessories alphabetically in resources form
