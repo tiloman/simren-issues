@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.1.16
+- **FIX**: In some cases it was possible that multiple mails were sent after setting an item to inactive (https://github.com/tiloman/simren-issues/issues/173)
+
 ## v1.1.15
 - **FIX**: Fixed an issue where a user could not be destroyed due to associations with the new comment model
 - **FIX**: Ensure the right subdomain in invitation mail and some other small issues for the invitation process
