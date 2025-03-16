@@ -1,7 +1,20 @@
 # Changelog
 
+## v.1.1.17
+- **FIX**: Tooltips were not displayed correctly (https://github.com/tiloman/simren-issues/issues/199)
+- **FIX**: Add missing translation (https://github.com/tiloman/simren-issues/issues/194)
+- **FIX**: fix redirect path after updating notifications
+- **FIX**: New comment mail was not sent to the booking user. Added the option to opt-out new comment mails for users (https://github.com/tiloman/simren-issues/issues/198)
+- **FIX**: Timetables only for rooms (https://github.com/tiloman/simren-issues/issues/197)
+- **FEATURE**: Add type badge to resources (https://github.com/tiloman/simren-issues/issues/195)
+- **FIX**: Consider configured mail server for sending invalid bookings mail (https://github.com/tiloman/simren-issues/issues/191)
+- **FIX** : Sort resources by alphabet in timetable form (https://github.com/tiloman/simren-issues/issues/196)
+- **FIX**: Improved response mode for login page (https://github.com/tiloman/simren-issues/issues/183)
+- **FEATURE**: The booking details are now shown per default (https://github.com/tiloman/simren-issues/issues/179)
+
 ## v1.1.16
 - **FIX**: In some cases it was possible that multiple mails were sent after setting an item to inactive (https://github.com/tiloman/simren-issues/issues/173)
+
 
 ## v1.1.15
 - **FIX**: Fixed an issue where a user could not be destroyed due to associations with the new comment model
