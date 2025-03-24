@@ -1,5 +1,12 @@
 # Changelog
 
+## v.1.1.19
+- **FIX**: New bookings with end date inside the timegap of the following booking could be created.
+- **FIX**: Booking user was informed about new comments even for internal comments
+
+## v.1.1.18
+- **MAINTENANCE**: Remove legacy comment model
+
 ## v.1.1.17
 - **FIX**: Tooltips were not displayed correctly (https://github.com/tiloman/simren-issues/issues/199)
 - **FIX**: Add missing translation (https://github.com/tiloman/simren-issues/issues/194)
