@@ -1,5 +1,13 @@
 # Changelog
 
+## v1.1.21
+- **FIX**: Improve error handling for edit requests
+- **FEATURE**: Show offtimes in resource calendar view (https://github.com/tiloman/simren-issues/issues/206)
+
+## v1.1.20
+- **FEATURE**: File input field validates file format on client side
+- **MAINTENANCE**: Automatic User deletion improvements
+
 ## v.1.1.19
 - **FIX**: New bookings with end date inside the timegap of the following booking could be created.
 - **FIX**: Booking user was informed about new comments even for internal comments
