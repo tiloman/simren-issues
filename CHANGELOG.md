@@ -1,5 +1,16 @@
 # Changelog
 
+## v1.1.24
+- **FEATURE**: Show additional resource count in dashboard table (https://github.com/tiloman/simren-issues/issues/180)
+
+## v1.1.23
+- **FIX**: Show all resources button refreshed the booking form and resetted values (https://github.com/tiloman/simren-issues/issues/112 & https://github.com/tiloman/simren-issues/issues/168)
+- **FEATURE**: Support for WEBP images
+- **FIX**: After deleting a booking the user was not redirected to bookings path (https://github.com/tiloman/simren-issues/issues/203)
+
+## v1.1.22
+- **FIX**: Show error message when deleting a resource fails (https://github.com/tiloman/simren-issues/issues/209)
+
 ## v1.1.21
 - **FIX**: Improve error handling for edit requests
 - **FEATURE**: Show offtimes in resource calendar view (https://github.com/tiloman/simren-issues/issues/206)
