@@ -1,10 +1,14 @@
 # Changelog
 
+## v1.1.25
+- **FIX**: Fixed day change issue when switching dashboard table view with today selected (https://github.com/tiloman/simren-issues/issues/211)
+- **FIX**: Alphabetically sorted resources in statistics view (https://github.com/tiloman/simren-issues/issues/214)
+
 ## v1.1.24
-- **FEATURE**: Show additional resource count in dashboard table (https://github.com/tiloman/simren-issues/issues/180)
+- **FEATURE**: Added resource count display in dashboard table (https://github.com/tiloman/simren-issues/issues/180)
 
 ## v1.1.23
-- **FIX**: Show all resources button refreshed the booking form and resetted values (https://github.com/tiloman/simren-issues/issues/112 & https://github.com/tiloman/simren-issues/issues/168)
+- **FIX**: Fixed "Show all resources" button resetting booking form values (https://github.com/tiloman/simren-issues/issues/112 & https://github.com/tiloman/simren-issues/issues/168)
 - **FEATURE**: Support for WEBP images
 - **FIX**: After deleting a booking the user was not redirected to bookings path (https://github.com/tiloman/simren-issues/issues/203)
 
