@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.1.3
+- **FEATURE**: Added Booking Log (https://github.com/tiloman/simren-issues/issues/216)
+- **FIX**: Sometimes room ressources were not checked out correctly.
+
 ## v1.1.25
 - **FIX**: Fixed day change issue when switching dashboard table view with today selected (https://github.com/tiloman/simren-issues/issues/211)
 - **FIX**: Alphabetically sorted resources in statistics view (https://github.com/tiloman/simren-issues/issues/214)
