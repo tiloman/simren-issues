@@ -4,6 +4,12 @@
 - **FEATURE**: Added Booking Log (https://github.com/tiloman/simren-issues/issues/216)
 - **FIX**: Sometimes room ressources were not checked out correctly.
 
+## v.1.1.26
+- **FEATURE**: More users and resources in the statistics graph
+- **FIX**: When editing a booking, the preselected end date differed from booking end date in the datepicker (https://github.com/tiloman/simren-issues/issues/210)
+- **FEATURE**: Send a reminder to user if the booking overdue for 48 hours. (https://github.com/tiloman/simren-issues/issues/217)
+- **FIX**: Presented bookings in calendar views (per resource/for all bookings) might differ when the booking is in running state
+
 ## v1.1.25
 - **FIX**: Fixed day change issue when switching dashboard table view with today selected (https://github.com/tiloman/simren-issues/issues/211)
 - **FIX**: Alphabetically sorted resources in statistics view (https://github.com/tiloman/simren-issues/issues/214)
