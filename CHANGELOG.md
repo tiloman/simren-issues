@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.1.32
+- **FIX**: Fixed partially returned items being incorrectly disabled when booking becomes overdue (https://github.com/tiloman/simren-issues/issues/230)
+- **MAINTENANCE**: Dependency updates
+
 ## v1.1.31
 - **FIX**: Fixed page reload issue after booking confirmation
 
