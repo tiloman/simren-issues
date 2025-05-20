@@ -1,5 +1,11 @@
 # Changelog
 
+## v1.1.33
+- **FIX**: fixed an error where the timegap before booking was not being handled correctly for bookings with multiple articles per resource
+- **FEATURE**: improved error handling
+- **FIX**: maximum of simultaneous bookings for a device could not be set in form
+- **FEATURE**: Show validation errors in booking view for invalid bookings
+
 ## v1.1.32
 - **FIX**: Fixed partially returned items being incorrectly disabled when booking becomes overdue (https://github.com/tiloman/simren-issues/issues/230)
 - **MAINTENANCE**: Dependency updates
