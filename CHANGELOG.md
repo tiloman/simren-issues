@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.1.34
+- **FIX**: Swagger file for api documentation was faulty
+
 ## v1.1.33
 - **FIX**: fixed an error where the timegap before booking was not being handled correctly for bookings with multiple articles per resource
 - **FEATURE**: improved error handling
