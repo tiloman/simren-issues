@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.1.36
+- **Maintenance**: Depedency updates and security improvements
+
 ## v1.1.35
 - **FIX**: Validate that the new end date for an edit request differs from current end date. Also skip max duration validation for edit requests
 
