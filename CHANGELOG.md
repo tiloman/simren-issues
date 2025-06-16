@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.1.37
+- **FEATURE**: Added option to make booking description mandatory (https://github.com/tiloman/simren-issues/issues/228)
+
 ## v1.1.36
 - **Maintenance**: Depedency updates and security improvements
 
