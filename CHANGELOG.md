@@ -1,5 +1,10 @@
 # Changelog
 
+
+## v1.1.38
+- **FEATURE**: Show offtimes in dashboard table (https://github.com/tiloman/simren-issues/issues/223)
+- **FIX**: Set end date to end of day for offtimes (https://github.com/tiloman/simren-issues/issues/205)
+
 ## v1.1.37
 - **FEATURE**: Added option to make booking description mandatory (https://github.com/tiloman/simren-issues/issues/228)
 
