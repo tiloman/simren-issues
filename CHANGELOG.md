@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.1.39
+- **FEATURE**: Some style adjustments
+- **FIX**: Sort by name in item view
 
 ## v1.1.38
 - **FEATURE**: Show offtimes in dashboard table (https://github.com/tiloman/simren-issues/issues/223)
