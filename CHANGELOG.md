@@ -1,8 +1,11 @@
 # Changelog
 
+## v1.1.40
+- **FIX**: Fixed an issue where packages could be booked despite unavailable resources
+
 ## v1.1.39
 - **FEATURE**: Some style adjustments
-- **FIX**: Sort by name in item view
+- **FIX**: Sort by name in item view (https://github.com/tiloman/simren-issues/issues/225)
 
 ## v1.1.38
 - **FEATURE**: Show offtimes in dashboard table (https://github.com/tiloman/simren-issues/issues/223)
