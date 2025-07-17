@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.1.41
+- **FIX**: Fixed an issue where validation messages are not deleted properly (https://github.com/tiloman/simren-issues/issues/235)
+- **FIX**: Sort resources alphabetically in direct booking view (https://github.com/tiloman/simren-issues/issues/238)
+
 ## v1.1.40
 - **FIX**: Fixed an issue where packages could be booked despite unavailable resources
 
