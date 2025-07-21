@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.1.42
+- **FIX**: Fixed an issue for direct bookings in combination with required descriptions(https://github.com/tiloman/simren-issues/issues/237)
+- **FIX**: Fixes an issue where start time could not be edited for upcoming bookings (https://github.com/tiloman/simren-issues/issues/243)
+
 ## v1.1.41
 - **FIX**: Fixed an issue where validation messages are not deleted properly (https://github.com/tiloman/simren-issues/issues/235)
 - **FIX**: Sort resources alphabetically in direct booking view (https://github.com/tiloman/simren-issues/issues/238)
