@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.1.44
+- **FIX**: Fixes an issue where a booking was faulty in edit request state (https://github.com/tiloman/simren-issues/issues/233)
+
 ## v1.1.43
 - **FIX**: Fix timestamp style for comments (https://github.com/tiloman/simren-issues/issues/244)
 
