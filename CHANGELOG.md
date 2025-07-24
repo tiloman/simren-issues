@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.1.43
+- **FIX**: Fix timestamp style for comments (https://github.com/tiloman/simren-issues/issues/244)
+
 ## v1.1.42
 - **FIX**: Fixed an issue for direct bookings in combination with required descriptions(https://github.com/tiloman/simren-issues/issues/237)
 - **FIX**: Fixes an issue where start time could not be edited for upcoming bookings (https://github.com/tiloman/simren-issues/issues/243)
