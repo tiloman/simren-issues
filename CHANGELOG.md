@@ -1,5 +1,5 @@
 # Changelog
-## v1.1.45
+## v1.1.45 - 2025-09-09
 - **FEATURE**: Add Date to changelog
 - **Maintenance**: Depedency updates and security improvements
 
