@@ -1,5 +1,15 @@
 # Changelog
-## v1.1.45 - 2025-09-09
+
+## v1.1.52 - 2025-09-19
+- **MAINTENANCE**: Improve Icon handling
+
+## v1.1.51 - 2025-09-19
+- **FEATURE**: Add ability to change the booking while handing out items (https://github.com/tiloman/simren-issues/issues/54)
+
+## v1.1.5 - 2025-09-11
+- **FIX**: When editing a booking, the end date selection was set to the next business day after the selected start date (https://github.com/tiloman/simren-issues/issues/247)
+
+## v1.1.45 - 2025-09-05
 - **FEATURE**: Add Date to changelog
 - **Maintenance**: Depedency updates and security improvements
 
