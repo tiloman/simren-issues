@@ -1,66 +1,69 @@
 # Changelog
 
-## v1.2.6 - 2025-12-09
+## v1.2.61 - 2025-12-10
+- **FIX**: Fix datefilter for xml export
+
+## v1.2.6 - 2025-12-10
 - **FEATURE**: improved statistic graphs (new datefilter, bookings by article) (https://github.com/tiloman/simren-issues/issues/271)
 - **FEATURE**: Add xml download for some statistics
 
-## v1.2.51 - 2025-12-09
+## v1.2.51 - 2025-12-10
 - **MAINTENANCE**: Security updates
 
-## v1.2.5 - 2025-12-09
+## v1.2.5 - 2025-12-10
 - **FEATURE**: refactor Site specific settings
 
-## v1.2.4 - 2025-12-09
+## v1.2.4 - 2025-12-10
 - **MISC**
 
-## v1.2.3 - 2025-12-09
+## v1.2.3 - 2025-12-10
 - **FEATURE**: Add site specific timegap and leadtime (Beta - hidden)
 
-## v1.2.2 - 2025-12-09
+## v1.2.2 - 2025-12-10
 - **FIX**: cancelled bookings were shown by mistake in dashboard overview (https://github.com/tiloman/simren-issues/issues/269 & https://github.com/tiloman/simren-issues/issues/224)
 
-## v1.2.1 - 2025-12-09
+## v1.2.1 - 2025-12-10
 - **FEATURE**: Ability to set default theme per team
 - **FEATURE**: Add 'corporate' theme
 
-## v1.2.0 - 2025-12-09
+## v1.2.0 - 2025-12-10
 - **FEATURE**: Design improvements and seperated administration area. Set theme in personal settings
 
-## v1.1.60 - 2025-12-09
+## v1.1.60 - 2025-12-10
 - **FIX**: Bookings were not displayed in the dashboard table (https://github.com/tiloman/simren-issues/issues/256 & https://github.com/tiloman/simren-issues/issues/240)
 
-## v1.1.59 - 2025-12-09
+## v1.1.59 - 2025-12-10
 - **FIX**: Added missing libraries for image processing
 
-## v1.1.58 - 2025-12-09
+## v1.1.58 - 2025-12-10
 - **FIX**: fixes for direct booking
 - **FEATURE**: Show more data in global overview
 
-## v1.1.57 - 2025-12-09
+## v1.1.57 - 2025-12-10
 - **MAINTENANCE**: Upgrade underlying platform
 
-## v1.1.56 - 2025-12-09
+## v1.1.56 - 2025-12-10
 - **MAINTENANCE**: Improve SVG Icon handling
 
-## v1.1.55 - 2025-12-09
+## v1.1.55 - 2025-12-10
 - **FEATURE**: Added display of handed out resources (items) count to statistics overview
 - **IMPROVEMENT**: Reorganized statistics overview with sections "Gesamt" and "Letzte 30 Tage" for better clarity
 
-## v1.1.54 - 2025-12-09
+## v1.1.54 - 2025-12-10
 - **FIX**: Fixed duplicate sites appearing in statistics page site filter (https://github.com/tiloman/simren-issues/issues/252)
 - **FIX**: Fixed statistics showing cancelled and destroyed bookings in all counts and charts (https://github.com/tiloman/simren-issues/issues/253)
 
-## v1.1.53 - 2025-12-09
+## v1.1.53 - 2025-12-10
 - **FEATURE**: added more filter to statistics page
 - **IMPROVEMENT**: Remove booking filter from users view and add pagination to user view (https://github.com/tiloman/simren-issues/issues/249)
 - **FEATURE**: Internal user comments are now displayed in direct booking form when a user is selected (https://github.com/tiloman/simren-issues/issues/251)
 - **FEATURE**: Added sorting functionality for Type, Status, and Bookings columns in items index (https://github.com/tiloman/simren-issues/issues/225)
 - **FIX**: Fixed an issue where bookings were not displayed in the dashboard day overview (https://github.com/tiloman/simren-issues/issues/240)
 
-## v1.1.52 - 2025-12-09
+## v1.1.52 - 2025-12-10
 - **MAINTENANCE**: Improve Icon handling
 
-## v1.1.51 - 2025-12-09
+## v1.1.51 - 2025-12-10
 - **FEATURE**: Add ability to change the booking while handing out items (https://github.com/tiloman/simren-issues/issues/54)
 
 ## v1.1.5 - 2025-09-11
