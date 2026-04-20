@@ -1,5 +1,8 @@
 # Changelog
 
+## Unreleased
+- **FIX**: Prüfung der Verfügbarkeit bei Direktbuchung erfolgt nun direkt beim Auswählen des Artikels statt erst beim Klick auf "Buchung anlegen" (https://github.com/tiloman/simren-issues/issues/282)
+
 ## v1.2.61 - 2026-02-19
 - **FIX**: Fix datefilter for xml export
 
