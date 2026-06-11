@@ -1,137 +1,144 @@
 # Changelog
 
-## v1.2.94 - 2026-06-10
+## v1.2.96 - 2026-06-11
+- **FIX**: The booking date variables in custom email templates now use the same long format as the default texts (weekday, written month, "Uhr") (https://github.com/tiloman/simren-issues/issues/290)
+
+## v1.2.95 - 2026-06-11
+- **FEATURE**: Packages now appear in their own section at the top of the resource list instead of being mixed into the categories (https://github.com/tiloman/simren-issues/issues/260)
+- **FIX**: The category filter on the resource list no longer shows duplicate or empty entries
+
+## v1.2.94 - 2026-06-11
 - **FEATURE**: The user list now shows names as "last name, first name" with the email address in its own column, making it easier to find people (https://github.com/tiloman/simren-issues/issues/176)
 
-## v1.2.93 - 2026-06-10
+## v1.2.93 - 2026-06-11
 - **FEATURE**: Teams can now customize the texts of booking emails (subject and content, German and English) with their own wording and placeholders like name or booking date.
 
-## v1.2.92 - 2026-06-10
+## v1.2.92 - 2026-06-11
 - **FEATURE**: The booking log now records every automated email, including who received it (https://github.com/tiloman/simren-issues/issues/288)
 
-## v1.2.91 - 2026-06-10
+## v1.2.91 - 2026-06-11
 - **FIX**: Sorting and status filtering on the bookings list now work together instead of resetting each other (https://github.com/tiloman/simren-issues/issues/257)
 - **FEATURE**: The bookings list can now be filtered by a concrete date range (von/bis) (https://github.com/tiloman/simren-issues/issues/257)
 
-## v1.2.90 - 2026-06-10
+## v1.2.90 - 2026-06-11
 - **FIX**: Booking update emails are no longer sent to the wrong user when changing the cart owner
 - **FIX**: Selecting a user in the cart no longer triggers a premature "Booking updated" email
 
-## v1.2.89 - 2026-06-10
+## v1.2.89 - 2026-06-11
 - **FEATURE**: Teams can now choose between informal (du) and formal (Sie) address forms in settings
 
-## v1.2.88 - 2026-06-10
+## v1.2.88 - 2026-06-11
 - **FIX**: Availability check now happens when adding items to cart, not just when submitting the booking
 
-## v1.2.87 - 2026-06-10
+## v1.2.87 - 2026-06-11
 - **FIX**: Users with recent bookings are no longer marked as inactive, even if they haven't logged in themselves
 
-## v1.2.86 - 2026-06-10
+## v1.2.86 - 2026-06-11
 - **FIX**: Edit requests could silently disappear, leaving bookings stuck in extension request state
 
-## v1.2.85 - 2026-06-10
+## v1.2.85 - 2026-06-11
 - **FIX**: Changing cart owner no longer resets the description field
 - **FIX**: "Booking created" popup no longer appears when changing cart owner
 - **FIX**: Items added to a booking after check-in are now correctly marked as unavailable
 - **FIX**: Admins can now delete cart bookings assigned to other users
 - **FIX**: Copying a booking now carries over the original booking's user
 
-## v1.2.84 - 2026-06-10
+## v1.2.84 - 2026-06-11
 - **FIX**: Off times index crashes when `selection` is nil
 
-## v1.2.83 - 2026-06-10
+## v1.2.83 - 2026-06-11
 - **FIX**: Bookings with many resources caused duplicate item assignments during check-in (https://github.com/tiloman/simren-issues/issues/272)
 
-## v1.2.82 - 2026-06-10
+## v1.2.82 - 2026-06-11
 - **FIX**: Several minor issues
 - **FEATURE**: Add custom colors to sites (https://github.com/tiloman/simren-issues/issues/261)
 
-## v1.2.81 - 2026-06-10
+## v1.2.81 - 2026-06-11
 - **IMPROVEMENT**: Redirect to booking after creating a direct booking
 - **IMPROVEMENT**: Inline user select for changing the booking user
 - **FIX**: Cart success modal was not displayed after changing the booking user
 - **FIX**: Items removed during check-out were not released and remained unavailable
 
-## v1.2.8 - 2026-06-10
+## v1.2.8 - 2026-06-11
 **FEATURE**: Added Basket feature. From now on bookings will be created via basket.
 
-## v1.2.72 - 2026-06-10
+## v1.2.72 - 2026-06-11
 - **FIX**: Find invalid bookings job no longer crashes when user has been deleted
 - **FIX**: Navbar policy no longer crashes when user is nil
 - **FIX**: Booking details mail template no longer crashes when user has been deleted
 
-## v1.2.71 - 2026-06-10
+## v1.2.71 - 2026-06-11
 - **FIX**: Item detail page no longer crashes when linked bookings have been deleted
 
-## v1.2.7 - 2026-06-10
+## v1.2.7 - 2026-06-11
 - **FEATURE**: Save Bookings as draft
 - **FEATURE**: Resolve bookings with state 'Problem' (https://github.com/tiloman/simren-issues/issues/222)
 - **FIX**: Availability check for packages did not take into account a specific site
 
-## v1.2.61 - 2026-06-10
+## v1.2.61 - 2026-06-11
 - **FIX**: Fix datefilter for xml export
 
-## v1.2.6 - 2026-06-10
+## v1.2.6 - 2026-06-11
 - **FEATURE**: improved statistic graphs (new datefilter, bookings by article) (https://github.com/tiloman/simren-issues/issues/271)
 - **FEATURE**: Add xml download for some statistics
 
-## v1.2.51 - 2026-06-10
+## v1.2.51 - 2026-06-11
 - **MAINTENANCE**: Security updates
 
-## v1.2.5 - 2026-06-10
+## v1.2.5 - 2026-06-11
 - **FEATURE**: refactor Site specific settings
 
-## v1.2.4 - 2026-06-10
+## v1.2.4 - 2026-06-11
 - **MISC**
 
-## v1.2.3 - 2026-06-10
+## v1.2.3 - 2026-06-11
 - **FEATURE**: Add site specific timegap and leadtime (Beta - hidden)
 
-## v1.2.2 - 2026-06-10
+## v1.2.2 - 2026-06-11
 - **FIX**: cancelled bookings were shown by mistake in dashboard overview (https://github.com/tiloman/simren-issues/issues/269 & https://github.com/tiloman/simren-issues/issues/224)
 
-## v1.2.1 - 2026-06-10
+## v1.2.1 - 2026-06-11
 - **FEATURE**: Ability to set default theme per team
 - **FEATURE**: Add 'corporate' theme
 
-## v1.2.0 - 2026-06-10
+## v1.2.0 - 2026-06-11
 - **FEATURE**: Design improvements and seperated administration area. Set theme in personal settings
 
-## v1.1.60 - 2026-06-10
+## v1.1.60 - 2026-06-11
 - **FIX**: Bookings were not displayed in the dashboard table (https://github.com/tiloman/simren-issues/issues/256 & https://github.com/tiloman/simren-issues/issues/240)
 
-## v1.1.59 - 2026-06-10
+## v1.1.59 - 2026-06-11
 - **FIX**: Added missing libraries for image processing
 
-## v1.1.58 - 2026-06-10
+## v1.1.58 - 2026-06-11
 - **FIX**: fixes for direct booking
 - **FEATURE**: Show more data in global overview
 
-## v1.1.57 - 2026-06-10
+## v1.1.57 - 2026-06-11
 - **MAINTENANCE**: Upgrade underlying platform
 
-## v1.1.56 - 2026-06-10
+## v1.1.56 - 2026-06-11
 - **MAINTENANCE**: Improve SVG Icon handling
 
-## v1.1.55 - 2026-06-10
+## v1.1.55 - 2026-06-11
 - **FEATURE**: Added display of handed out resources (items) count to statistics overview
 - **IMPROVEMENT**: Reorganized statistics overview with sections "Gesamt" and "Letzte 30 Tage" for better clarity
 
-## v1.1.54 - 2026-06-10
+## v1.1.54 - 2026-06-11
 - **FIX**: Fixed duplicate sites appearing in statistics page site filter (https://github.com/tiloman/simren-issues/issues/252)
 - **FIX**: Fixed statistics showing cancelled and destroyed bookings in all counts and charts (https://github.com/tiloman/simren-issues/issues/253)
 
-## v1.1.53 - 2026-06-10
+## v1.1.53 - 2026-06-11
 - **FEATURE**: added more filter to statistics page
 - **IMPROVEMENT**: Remove booking filter from users view and add pagination to user view (https://github.com/tiloman/simren-issues/issues/249)
 - **FEATURE**: Internal user comments are now displayed in direct booking form when a user is selected (https://github.com/tiloman/simren-issues/issues/251)
 - **FEATURE**: Added sorting functionality for Type, Status, and Bookings columns in items index (https://github.com/tiloman/simren-issues/issues/225)
 - **FIX**: Fixed an issue where bookings were not displayed in the dashboard day overview (https://github.com/tiloman/simren-issues/issues/240)
 
-## v1.1.52 - 2026-06-10
+## v1.1.52 - 2026-06-11
 - **MAINTENANCE**: Improve Icon handling
 
-## v1.1.51 - 2026-06-10
+## v1.1.51 - 2026-06-11
 - **FEATURE**: Add ability to change the booking while handing out items (https://github.com/tiloman/simren-issues/issues/54)
 
 ## v1.1.5 - 2025-09-11
