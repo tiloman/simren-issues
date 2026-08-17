@@ -1,5 +1,13 @@
 # Changelog
 
+## v1.2.106 - 2026-08-17
+- **FEATURE**: Old bookings are now anonymized instead of deleted: after the configured retention period all personal data (user, comments, descriptions, signatures, logs) is removed, but the booking itself stays available for the statistics. Anonymized bookings no longer appear in booking lists (https://github.com/tiloman/simren-issues/issues/265)
+
+## v1.2.105 - 2026-08-17
+- **FEATURE**: The statistics page now has a global time range (presets, calendar years or custom dates) that applies to all charts and figures (https://github.com/tiloman/simren-issues/issues/220)
+- **FEATURE**: New key figures on the statistics page: total bookings, total items handed out, active users, average/median resources per booking and average/median rental duration — with XML download (https://github.com/tiloman/simren-issues/issues/220)
+- **IMPROVEMENT**: The bookings-per-week chart shows the weekly average for the selected period (https://github.com/tiloman/simren-issues/issues/220)
+
 ## v1.2.104 - 2026-08-17
 - **FEATURE**: The "most active users" statistic can now hide team and resource admins with a single switch, so the list shows only regular users (https://github.com/tiloman/simren-issues/issues/188)
 
