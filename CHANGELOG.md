@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.2.109 - 2026-08-18
+- **FIX**: Creating a blocked period without choosing which resources it applies to no longer breaks the blocked periods page — it now defaults to "individual selection"; existing broken entries are repaired automatically
+
 ## v1.2.108 - 2026-08-18
 - **FIX**: Creating a blocked period no longer shows an error page when the list contains a blocked period whose creator was deleted — the list now shows "Deleted account" instead
 - **FIX**: Booking details, booking mails and verifications no longer break when the admin who handed out, took back or verified was deleted
