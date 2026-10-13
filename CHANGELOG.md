@@ -1,8 +1,5 @@
 # Changelog
 
-## v1.2.116 - 2026-10-13
-- **FIX**: Single sign-on for UB Marburg works again
-
 ## v1.2.114 - 2026-10-13
 - **FIX**: Emails are no longer lost when the mail server temporarily rejects them — delivery is now retried over a longer period
 
