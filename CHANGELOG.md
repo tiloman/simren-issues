@@ -1,5 +1,12 @@
 # Changelog
 
+## v1.2.120 - 2026-10-29
+- **FIX**: Rejecting a booking request now reliably sends the rejection email to the user, including the note from the dialog
+- **FIX**: Users are notified by email when an admin deletes their upcoming booking
+- **FIX**: Deleting or editing a booking no longer affects reminders and scheduled emails of other bookings
+- **FIX**: Only admins can reject booking requests
+- **IMPROVEMENT**: Deleted and rejected bookings show when and by whom they were removed instead of "This booking no longer exists", and deletions appear in the booking log
+
 ## v1.2.119 - 2026-10-29
 - **FIX**: Single sign-on loads the certificates of the university login only over a secure connection
 
