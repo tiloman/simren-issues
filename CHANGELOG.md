@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.2.129 - 2026-11-25
+- **FIX**: Live updates, the cart and comments work again after the last update
+
 ## v1.2.128 - 2026-11-25
 - **SECURITY**: Single sign-on now only accepts sign-ins started from your simren address
 
