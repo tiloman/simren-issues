@@ -1,5 +1,11 @@
 # Changelog
 
+## v1.2.128 - 2026-11-25
+- **SECURITY**: Single sign-on now only accepts sign-ins started from your simren address
+
+## v1.2.127 - 2026-11-25
+- **SECURITY**: Updated the underlying platform to a newer version with security fixes
+
 ## v1.2.126 - 2026-11-25
 - **FIX**: Removing a booking that was already removed (e.g. by double-clicking "remove" in the cart or from a second tab) no longer shows an error page
 
