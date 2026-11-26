@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.2.132 - 2026-11-26
+- **FIX**: Item pages open again when their history contains entries by deleted users
+
 ## v1.2.131 - 2026-11-26
 - **SECURITY**: simren now only answers requests made to your own simren address
 
