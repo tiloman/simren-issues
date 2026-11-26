@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.2.131 - 2026-11-26
+- **SECURITY**: simren now only answers requests made to your own simren address
+
 ## v1.2.130 - 2026-11-26
 - **IMPROVEMENT**: Prepared sign-in and bookings for the next platform update
 
