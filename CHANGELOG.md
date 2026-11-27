@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.2.135 - 2026-11-27
+- **IMPROVEMENT**: When handing out resources, items can now also be found by inventory or serial number, e.g. with a barcode scanner
+
 ## v1.2.134 - 2026-11-27
 - **IMPROVEMENT**: With single sign-on, your name, email address and roles are now taken over from your university login every time you sign in
 
